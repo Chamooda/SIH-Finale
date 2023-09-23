@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from trials import Mainly
+
 app = Flask(__name__)
 
 @app.route('/urls/<string:urls>')
