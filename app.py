@@ -7,7 +7,6 @@ def urls_playboy(urls):
     urls = urls.replace(' ','/')
     return jsonify({
         'status': 'ok',
-        'message': 'Hello World!',
         'urls': urls})
     
 
